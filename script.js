@@ -1,15 +1,7 @@
 //your code here!
 const list = document.querySelector("#infi-list");
 
-list.innerHTML = `
-<li>Item 1</li>
-<li>Item 1</li>
-<li>Item 1</li>
-<li>Item 1</li>
-<li>Item 1</li>
-<li>Item 1</li>
-<li>Item 1</li>
-<li>Item 1</li>
-<li>Item 1</li>
-<li>Item 1</li>
-`
+for(let i = 1; i <= 10; i++){
+	list.innerHTML += `<li>Item ${i}</li>`
+	
+}
